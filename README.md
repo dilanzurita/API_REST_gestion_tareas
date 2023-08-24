@@ -15,15 +15,7 @@ A continuación, se presentan ejemplos de cómo realizar operaciones CRUD utiliz
 
 Para crear una nueva tarea, envía una solicitud POST a la ruta base. Incluye los datos de la tarea en el cuerpo de la solicitud en formato JSON.
 
-```json
-POST http://localhost:8080/api/tasks
 
-{
-  "nombre": "Completar informe",
-  "descripcion": "Redactar informe sobre el proyecto",
-  "fecha": "2023-08-25",
-  "estado": "Pendiente"
-}
 
 Para obtener detalles sobre una tarea existente, envía una solicitud GET a la ruta base seguida del ID de la tarea.
 GET http://localhost:8080/api/tasks/1
